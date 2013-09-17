@@ -2,7 +2,8 @@
 <html lang="sv">
     
     <head>
-        
+        <meta charset="utf-8" />
+        <title>Kontakt Tim</title>
     </head>
     
     
@@ -17,7 +18,37 @@
             <li><A HREF=kontakt.html>Kontakt</A></li>
         </ul>  
         
-        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+                <legend>Fråga</legend>
+                    
+                    <lable>Ärendetyp</lable>
+                    
+                <select name="fråga" id="fråga">
+                    <option>Välj här!</option>
+                    <option value="fråga">Fråga</option>
+                </select>    
+                
+                <br><lable>Rubrik:</lable>
+                    <input type="text">
+                    
+                <br><lable>Fråga:</lable>
+                    <textarea name="fråga" cols="20" rows="2"></textarea>
+                    
+                </select><br>
+                
+            </fieldset>
+            
+            <fieldset>
+                
+                <legend>Infomation om dig</legend>
+                        Kontakta mig via mail <input type="checkbox" name="mail" value="kontakt1" />
+                    <br>Kontakta mig via telefon <input type="checkbox" name="telefon" value="kontakt2" /><br> 
+                    
+                <input type="submit" value="Skicka frågan"
+            </fieldset>
+        </form>
+       
     </body>
     
     
