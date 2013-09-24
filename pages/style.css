@@ -1,0 +1,50 @@
+#container
+
+{
+    max-width:960px;
+    margin:0 auto;
+}
+
+#header
+{
+    max-width:960px;
+    height:70px;
+    background-color:#1BEF00;
+    text-align:center;
+}
+
+#navigation
+{
+    float: left;
+    width: 300px;
+}
+
+#navigation2
+{
+    
+}
+
+#content
+{
+    margin-left:300px;
+}
+
+#img
+{
+    text-align:center;
+}
+
+
+#footer
+{
+    width:960px;
+    height:70px;
+    background-color:#1BEF00;
+}
+
+h2
+{
+    background-color:#1BEF00;
+    text-align:center;
+    height:30px;
+}

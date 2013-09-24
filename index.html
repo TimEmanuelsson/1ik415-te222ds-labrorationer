@@ -4,39 +4,54 @@
     
     <head>
         <meta charset="utf-8" />
+        <link href="pages/style.css" rel="stylesheet" type="text/css">
         <title> Tims Blogg</title>
     </head>
     
     <body>
-        <img alt="Logotype" id="bild2" src="pics/Logotype.png">
-        
-        <h1>Tim Emanuelssons Blogg</h1>
-        
-        <p>Tims hemsida</p>
-          <ul>
-            <li><A HREF=index.html>Start</A></li>
-            <li><A HREF=pages/laborationer.html>Laborationer</A></li>
-            <li><A HREF=pages/presentation.html>Presentationer</A></li>
-            <li><A HREF=pages/kontakt.html>Kontakt</A></li>
-          </ul>  
-        
-        <h2>Kursblogg</h2>
-        <h3>Mitt första blogginlägg</h3>
-            <p>På den här bloggen kommer jag skriva lite kort om mina laberationer och publicera lite material jag skapat.</p>
-            <p>Skrivet av Tim Emanuelsson, 2013-09-10</p>
+        <div id="container">
             
-        <h2>Vektorbaserad bild</h2> 
+            <div id="img">
+            <img alt="Logotype" id="bild2" src="pics/Logotype.png">
+            </div>
+            
+            <div id="header">
+                <h1>Tim Emanuelssons Blogg</h1>
+            </div>
+            
+            <div id="navigation">
+                <div id="navigation2">
+                  <ul>
+                    <li><A HREF=index.html>Start</A></li>
+                    <li><A HREF=pages/laborationer.html>Laborationer</A></li>
+                    <li><A HREF=pages/presentation.html>Presentationer</A></li>
+                    <li><A HREF=pages/kontakt.html>Kontakt</A></li>
+                  </ul>  
+                </div>
+            </div>
+            
+            <div id="content">
+                <h2>Kursblogg</h2>
+                <h3>Mitt första blogginlägg</h3>
+                    <p>På den här bloggen kommer jag skriva lite kort om mina laberationer och publicera lite material jag skapat.</p>
+                    <p>Skrivet av Tim Emanuelsson, 2013-09-10</p>
+                    
+                <h2>Vektorbaserad bild</h2> 
+                
+                <div id="img2">
+                    <img alt="Vektorbaserad bild" id="bild3" src="pics/hej.svg" width="230" height="170">
+                </div>    
+                    
+                <h2>Min första video</h2>
+                
+                    <video id="Video" width="320" height="240" controls>
+                    <source src="videos/trailer_480p.mov" type="video/mp4">
+                    </video>
+            </div>    
+       <div id="footer"></div>
+        </div>
         
-        <img alt="Vektorbaserad bild" id="bild3" src="pics/hej.svg">
-            
-            
-        <h2>Min första video</h2>
         
-            <video id="Video" width="320" height="240" controls>
-            <source src="videos/trailer_480p.mov" type="video/mp4">
-            </video>
-            
-    
     </body>
     
 </html>
