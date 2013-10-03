@@ -134,6 +134,16 @@ td
     background-color:#E8E8E8;
 }
 
+fieldset
+{
+    border-color:green;
+}
+
+legend
+{
+    font-weight:bold;
+    font-size:125%;
+}
 #footer
 {
     width:960px;
