@@ -51,11 +51,17 @@ Background header: #1BEF00
 .active:link
 {
     color:#00800;
+    background-image:url('../pics/hammare-gro.png');
+    background-repeat:no-repeat;
+    background-position:190px;
 }
 
 .active:hover
 {
     background-color: black;
+    background-image:url('../pics/hammare.png');
+    background-repeat:no-repeat;
+    background-position:190px;
 }
 
 #active
@@ -73,6 +79,14 @@ Background header: #1BEF00
     color:black;
 }
 
+
+#active
+{
+    background-image:url('../pics/hammare.png');
+    background-repeat:no-repeat;
+    background-position:190px;
+    
+}
 
 .meny li a
 {

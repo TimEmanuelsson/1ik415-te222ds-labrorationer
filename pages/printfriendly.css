@@ -1,0 +1,39 @@
+body
+{
+    font-family:Georgia, Times;
+}
+
+#navigationboss
+{
+    display:none;
+}
+
+#navigation
+{
+    display:none;
+}
+
+#navgation2
+{
+    display:none;
+}
+
+#footer
+{
+    display:none;
+}
+
+#img
+{
+    display:none;
+}
+
+#content
+{
+    margin:1px;
+}
+
+a
+{
+    display:none;
+}
