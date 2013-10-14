@@ -6,21 +6,22 @@
         <meta charset="utf-8" />
         <link href="pages/style.css" rel="stylesheet" type="text/css">
         <link href="pages/printfriendly.css" rel="stylesheet" media="print">
+        <link href="mobile.css" rel="stylesheet" media="only screen and (max-width:480px)"/>
         <title> Tims Blogg</title>
     </head>
     
     <body>
-        <div id="container">
+        <div id="Main">
             
             <div id="img">
-            <img alt="Logotype" id="bild2" src="pics/Logotype.png" width="960" height="170">
+            <img alt="Logotype" id="bild2" src="pics/Logotype.png" width="960">
             </div>
             
-            <div id="header" class="bloggheader">
+            <div id="Header" class="bloggheader">
                 <h1>Tim Emanuelssons Blogg</h1>
             </div>
             
-            <div id="navigationboss" class = "meny">
+            <div id="Nav" class = "meny">
                   <ul>
                     <li><A HREF=index.html id ="active" class="active">Start</A></li>
                     <li><A HREF=pages/laborationer.html class="active">Laborationer</A></li>
@@ -30,7 +31,7 @@
             </div>
             
             <div id="content">
-                <img src="pics/lorem-ipsum-logo.jpg" width="250" height="250" class="picright">
+                <img src="pics/lorem-ipsum-logo.jpg" id="bild" width="250" class="picright">
                 
                 <h2>Lorem ipsum!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget dapibus sem, dignissim consectetur augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sed eros neque. Praesent metus neque, dictum et convallis ac, faucibus dictum nisl. Praesent fermentum enim in nisi eleifend, non sagittis felis pellentesque. Etiam lectus tortor, tristique accumsan nibh non, pulvinar consectetur arcu. Proin aliquet faucibus ligula sed aliquet. Praesent tincidunt quam sed ipsum imperdiet sollicitudin. In non imperdiet lorem, quis feugiat ante. In erat elit, tristique a ipsum vulputate, consectetur interdum mauris. Vivamus mollis sapien eu venenatis iaculis. Nulla quis diam dolor. Maecenas sit amet mauris vel quam fringilla ullamcorper. Nam a tristique erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec mauris a sem aliquet imperdiet.</p>
@@ -46,15 +47,15 @@
                     
                 <h2>Vektorbaserad bild</h2> 
                 <div id="img2">
-                    <img alt="Vektorbaserad bild" id="bild3" src="pics/hej.svg" width="230" height="170">
+                    <img alt="Vektorbaserad bild" id="bild3" src="pics/hej.svg" width="230">
                 </div>    
                     
                 <h2>Min första video</h2>
-                    <video id="Video" width="320" height="240" controls>
+                    <video id="Video" width="320" controls>
                     <source src="videos/trailer_480p.mov" type="video/mp4">
                     </video>
             </div>    
-       <div id="footer"></div>
+                <div id="footer"></div>
         </div>
         
         
