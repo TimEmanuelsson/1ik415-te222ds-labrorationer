@@ -4,36 +4,41 @@
     
     <head>
         <meta charset="utf-8" />
+        <link rel="icon" href="pics/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="pics/icon.png" />
+        <link rel="apple-touch-icon" href="pics/icon-72.png" />
         <link href="pages/style.css" rel="stylesheet" type="text/css">
         <link href="pages/printfriendly.css" rel="stylesheet" media="print">
-        <link href="mobile.css" rel="stylesheet" media="only screen and (max-width:480px)"/>
+        <link href="pages/mobile.css" rel="stylesheet" media="only screen and (max-width:480px)"/>
         <title> Tims Blogg</title>
     </head>
     
     <body>
-        <div id="Main">
+        <div id="container">
             
             <div id="img">
             <img alt="Logotype" id="bild2" src="pics/Logotype.png" width="960">
             </div>
             
-            <div id="Header" class="bloggheader">
+            <header class="bloggheader">
                 <h1>Tim Emanuelssons Blogg</h1>
-            </div>
+            </header>
             
-            <div id="Nav" class = "meny">
+            <nav class = "meny">
                   <ul>
                     <li><A HREF=index.html id ="active" class="active">Start</A></li>
                     <li><A HREF=pages/laborationer.html class="active">Laborationer</A></li>
                     <li><A HREF=pages/presentation.html class="active">Presentationer</A></li>
                     <li><A HREF=pages/kontakt.html class="active">Kontakt</A></li>
                   </ul>  
-            </div>
+            </nav>
             
-        <div id="content">
-                <img src="pics/lorem-ipsum-logo.jpg" id="bild" width="250" class="picright">
+        <main>
+                
                 
                 <h2>Lorem ipsum!</h2>
+                <img src="pics/lorem-ipsum-logo.jpg" id="bild" width="250" class="picright">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget dapibus sem, dignissim consectetur augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sed eros neque. Praesent metus neque, dictum et convallis ac, faucibus dictum nisl. Praesent fermentum enim in nisi eleifend, non sagittis felis pellentesque. Etiam lectus tortor, tristique accumsan nibh non, pulvinar consectetur arcu. Proin aliquet faucibus ligula sed aliquet. Praesent tincidunt quam sed ipsum imperdiet sollicitudin. In non imperdiet lorem, quis feugiat ante. In erat elit, tristique a ipsum vulputate, consectetur interdum mauris. Vivamus mollis sapien eu venenatis iaculis. Nulla quis diam dolor. Maecenas sit amet mauris vel quam fringilla ullamcorper. Nam a tristique erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec mauris a sem aliquet imperdiet.</p>
                 <p>Donec vel ipsum tincidunt, consequat purus accumsan, suscipit neque. Integer eget ante eu dolor scelerisque condimentum at a magna. Curabitur augue ligula, tempor eu ligula in, imperdiet dignissim magna. Etiam volutpat tortor eget turpis vehicula rhoncus nec ac ligula. Sed vitae eros quis eros venenatis ullamcorper sed nec tortor. Mauris bibendum justo vel justo iaculis congue. In non facilisis leo. Maecenas non lectus ultrices, rutrum sem quis, porta mauris.</p>
                 <p>Nam sapien diam, vestibulum sit amet ligula ac, rutrum congue velit. Aliquam sit amet justo rutrum, vulputate quam eget, lobortis tortor. Fusce vulputate, quam rutrum posuere accumsan, magna erat laoreet est, quis accumsan sapien nibh vitae mi. Cras facilisis scelerisque lorem, at sagittis nisl vestibulum at. Vestibulum nisi dolor, varius sed pellentesque ac, hendrerit non nunc. Aenean tempor cursus sapien, nec feugiat arcu elementum sed. Cras diam justo, auctor non risus id, aliquet malesuada nulla. Praesent turpis dui, dignissim vel felis eu, placerat luctus erat. Fusce a metus urna. Ut condimentum justo non imperdiet tempus.</p>
@@ -54,8 +59,8 @@
                     <video id="Video" width="320" controls>
                     <source src="videos/trailer_480p.mov" type="video/mp4">
                     </video>
-            </div>    
-                <div id="footer"></div>
+            </main>    
+                <footer></footer>
         </div>
         
         
