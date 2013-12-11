@@ -108,3 +108,5 @@
 {"ts":1381843514177,"patch":[[{"diffs":[[0,"cut icon\" href=\""],[1,"../pics/"],[0,"favicon.ico\" typ"]],"start1":236,"start2":236,"length1":32,"length2":40}]],"length":4183,"saved":false}
 {"ts":1381843527440,"patch":[[{"diffs":[[0,"\" href=\""],[1,"../pics/"],[0,"favicon."]],"start1":169,"start2":169,"length1":16,"length2":24}]],"length":4191,"saved":false}
 {"ts":1381844815784,"patch":[[{"diffs":[[0,"image/x-icon\"/>\n"],[1,"        <link rel=\"apple-touch-icon\" href=\"../pics/icon.png\" />\n        <link rel=\"apple-touch-icon\" href=\"../pics/icon-72.png\" />\n"],[0,"        <link hr"]],"start1":287,"start2":287,"length1":32,"length2":163}]],"length":4322,"saved":false}
+{"ts":1381845484600,"patch":[[{"diffs":[[0,"dth:"],[-1,"48"],[1,"72"],[0,"0px)"]],"start1":649,"start2":649,"length1":10,"length2":10}]],"length":4322,"saved":false}
+{"ts":1381845710300,"patch":[[{"diffs":[[0,"x-width:"],[-1,"72"],[1,"48"],[0,"0px)\"/>\n"]],"start1":645,"start2":645,"length1":18,"length2":18}]],"length":4322,"saved":false}
