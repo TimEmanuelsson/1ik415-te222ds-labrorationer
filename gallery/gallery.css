@@ -45,7 +45,6 @@ body
 { 
 	 display: block; 
 	 height:250px;
-	 width:250px;
 }
 
 #images a:nth-child(2n)
